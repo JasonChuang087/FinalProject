@@ -100,7 +100,7 @@ public class WordCounter {
     
     public ArrayList<String> getSublink()throws IOException {
     	if (content == null){
-		    content = fetchContent();
+		    content = fetchContent(urlStr);
 		}
     	content = content.toUpperCase();
     	Document doc = Jsoup.parse(content);
@@ -114,7 +114,7 @@ public class WordCounter {
     public String sublinkCount(String keyword) throws IOException {
     	//抓出sublink array 的中間link(通常重要內容在正中間)
     	if (content == null){
-		    content = fetchContent();							//以下的code幾乎和keywordCount一樣，拆開來是因為不希望在keywordCount的時候
+		    content = fetchContent(urlStr);							//以下的code幾乎和keywordCount一樣，拆開來是因為不希望在keywordCount的時候
 		}														//會call自己，這樣sublink一直往下跑、會跑太多次，為了省時只跑2層(其實Google本身應該有跑過相關性了)
     	content = content.toUpperCase();
 		keyword = keyword.toUpperCase();
