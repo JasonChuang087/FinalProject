@@ -1,4 +1,6 @@
 # FinalProject
 FinalProject
 //這是瑞德米
-聽說改瑞德米也算commit是真的ㄇ
+//倘若那天  把該說的話好好說
+//該體諒的不執著
+//如果那天我
