@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class TestProject
  */
 //waitwaitwait remember that github seems cannot show chinese,you can see it below
-//¤p¾ô¬y¤ô¤H®a
+//ï¿½pï¿½ï¿½ï¿½yï¿½ï¿½ï¿½Hï¿½a
 
 @WebServlet("/TestProject")
 public class TestProject extends HttpServlet {
@@ -57,7 +57,7 @@ public class TestProject extends HttpServlet {
 		}
 		for(int i = 0 ; i <relatedResult.size(); i++) {
 			rs[i] = relatedResult.get(i)[0].replaceAll(" ", "");
-			rs[i] = rs[i].substring(0, rs[i].length()-1);
+			rs[i] = rs[i].substring(0, rs[i].length()-1);                 //hgfgvh
 		}
 		request.setAttribute("rs", rs);
 		request.setAttribute("sr", sr);
