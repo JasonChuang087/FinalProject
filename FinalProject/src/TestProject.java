@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 //waitwaitwait remember that github seems cannot show chinese,you can see it below
 //小橋流水人家
-//ben simmons's shooting tange is even shorter than Shaq  WTF BEN.
+//ben simmons's shooting tange is even shorter than Shaq  WTF BEN
 
 @WebServlet("/TestProject")
 public class TestProject extends HttpServlet {
