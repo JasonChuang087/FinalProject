@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class TestProject
  */
 //waitwaitwait remember that github seems cannot show chinese,you can see it below
-//RRRRRRRRRRRRRRRRRRRRRRRRR
+//
 
 @WebServlet("/TestProject")
 public class TestProject extends HttpServlet {
