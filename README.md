@@ -1,2 +1,2 @@
-# FinalProject
-請批閱 DS_FinalProjectG5
+透過jsoup java 進行網頁爬蟲，使用者只要輸入想要搜尋的NBA人事物(例如:CURRY)，NBA Search便會根據網頁內容中所包含的關鍵字進行加權計算，在加總後依分數高低呈現搜尋結果。
+
